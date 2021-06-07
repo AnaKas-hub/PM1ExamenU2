@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgImagen"
+        android:layout_width="96dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tarjeta" />
+
+    <TextView
+        android:id="@+id/txtNumeroTarjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Num. de Tarjeta: "
+        app:layout_constraintStart_toEndOf="@+id/imgImagen"
+        app:layout_constraintTop_toTopOf="@+id/imgImagen" />
+
+    <TextView
+        android:id="@+id/txtCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Cantidad: "
+        app:layout_constraintBottom_toBottomOf="@+id/imgImagen"
+        app:layout_constraintStart_toEndOf="@+id/imgImagen" />
+</androidx.constraintlayout.widget.ConstraintLayout>

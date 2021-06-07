@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pm1u2examen17100186.MainActivity">
+    <item android:id="@+id/mnu_add" android:title="Agregar" app:showAsAction="always" android:icon="@android:drawable/ic_menu_add"/>
+    <item android:id="@+id/mnu_salir" android:title="Salir" app:showAsAction="never"/>
+</menu>
